@@ -14,7 +14,7 @@ $(document).ready(function(){
     );
 
     $('#sound_form').submit(function () {
-        //var form_data = new FormData(document.getElementById('sound_form'));
+        var form_data = new FormData(document.getElementById('sound_form'));
         $.ajax({
             method: $(this).attr('method'),
             url: $(this).attr('action'),
