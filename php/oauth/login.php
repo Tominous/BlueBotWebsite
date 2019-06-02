@@ -94,5 +94,5 @@ if (!isset($_GET['code'])) {
     }
 
     header('Location: https://bluebot.pw');
-    //header('Location: http://localhost/bluebot/');
+    header('Location: http://localhost/bluebot/');
 }
